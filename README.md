@@ -102,13 +102,7 @@ guard_pro/
 │   ├── test_integration.py   # Integration tests (28)
 │   └── test_full_system.py   # End-to-end tests (39)
 │
-└── Docs
-    ├── README.md
-    ├── CHANGELOG.md
-    ├── CONTRIBUTING.md
-    ├── SECURITY.md
-    ├── LICENSE               # MIT
-    └── docs/                 # Additional guides
+└── README.md
 ```
 
 ## Testing
@@ -144,6 +138,4 @@ The system does not collect or transmit:
 - Microphone audio
 - Network traffic
 
-## License
 
-MIT

@@ -1,3 +1,14 @@
+# Docs (only README.md kept)
+CHANGELOG.md
+CONTRIBUTING.md
+CONTRIBUTORS.md
+SECURITY.md
+docs/
+.github/
+
+# License
+LICENSE
+
 # Secrets & local config
 config.json
 guard.key
