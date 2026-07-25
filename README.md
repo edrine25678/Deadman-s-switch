@@ -114,16 +114,6 @@ python -m unittest test_integration.py -v  # 28 integration tests
 python test_full_system.py                 # 39 E2E tests
 ```
 
-## Common Issues
-
-| Error | Cause | Fix |
-|-------|-------|-----|
-| `Telegram API error: token invalid` | Bot token wrong or revoked | New token from @BotFather |
-| `Email auth failed` | Not using Gmail App Password | Generate App Password |
-| `No webcam found` | Camera disconnected/in use | Check connection |
-| `Windows Location Service error` | Location disabled | Settings → Privacy → Location → ON |
-| `Heartbeat stale` | Guard hung | Watchdog auto-restarts |
-
 ## Security
 
 - **No key logging** — only timing (dwell/flight) is analyzed; actual keys are never stored
