@@ -1,31 +1,41 @@
-# Secrets & config
+# Secrets & local config
 config.json
 guard.key
 reference_face.pkl
-guard.log
 *.log
+
+# Runtime data
 guard.heartbeat
 heartbeat_*.tmp
+offline_queue/
+
+# Internal notes
+.DEPLOY_REMINDER
+ISSUES_AND_FIXES.md
+crash_log.txt
+
+# Test images
+*.jpg
+*.jpeg
+*.png
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
+venv/
+.venv/
+
+# PyInstaller build
 dist/
 build/
 *.spec
-*.exe
 
 # IDE
 .vscode/
 .idea/
 *.swp
 
-# Internal notes & test assets
-.DEPLOY_REMINDER
-ISSUES_AND_FIXES.md
-crash_log.txt
-*.jpg
-*.jpeg
-*.png
+# Deployment guide (local paths)
+DEPLOYMENT.md
