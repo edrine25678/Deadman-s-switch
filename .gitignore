@@ -22,5 +22,10 @@ build/
 .idea/
 *.swp
 
-# Temp
-offline_queue
+# Internal notes & test assets
+.DEPLOY_REMINDER
+ISSUES_AND_FIXES.md
+crash_log.txt
+*.jpg
+*.jpeg
+*.png
