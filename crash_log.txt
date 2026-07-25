@@ -1,0 +1,19 @@
+Exception in thread Thread-164 (_silent_alert):
+Traceback (most recent call last):
+  File "threading.py", line 1082, in _bootstrap_inner
+  File "threading.py", line 1024, in run
+  File "main_guard.py", line 1016, in _silent_alert
+    match = _check_face_match()
+  File "main_guard.py", line 378, in _check_face_match
+    import pickle, face_recognition
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "pyimod02_importers.py", line 457, in exec_module
+  File "face_recognition\__init__.py", line 7, in <module>
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "pyimod02_importers.py", line 457, in exec_module
+  File "face_recognition\api.py", line 20, in <module>
+RuntimeError: Unable to open C:\Users\HP\AppData\Local\Temp\_MEI105602\face_recognition_models\models\shape_predictor_68_face_landmarks.dat
